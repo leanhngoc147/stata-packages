@@ -1,0 +1,13 @@
+*! Sharingan Package
+*! Version 1.0.0
+*! Author: Your Name
+*! Date: 31 Dec 2024
+
+clear
+program drop _all
+
+* Cài đặt tệp chính:
+net install sharingan, from("https://raw.githubusercontent.com/yourusername/stata-packages/main/sharingan/") replace
+
+* Cài đặt tệp hỗ trợ:
+net install sharingahtml, from("https://raw.githubusercontent.com/yourusername/stata-packages/main/sharingan/") replace
